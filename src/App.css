@@ -1,0 +1,11 @@
+body,
+html {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: "#61DBFB";
+}
