@@ -12,6 +12,7 @@ import {
 } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import analyticsdashboard from "../assets/images/analyticsdashboard.png";
+import redstore from "../assets/images/redstore.png";
 import webdevapp from "../assets/images/webdevapp.png";
 import basicbankingapp from "../assets/images/basicbankingapp.png";
 import quizapp from "../assets/images/quizapp.png";
@@ -46,12 +47,18 @@ export default function MyWorks() {
       ],
     },
     {
-      projectTitle: "Web Dev Website",
-      projectImage: webdevapp,
+      projectTitle: "Redstore Ecommerce",
+      projectImage: redstore,
       projectDescription:
-        "Developed a Web Design and Development Company Website built using ReactJS, Javascript, HTML and CSS. The website features amazing UI and is responsive on different devices.",
-      projectLink: "https://web-development-website.vercel.app/",
-      projectTechnologies: ["ReactJS", "Javascript", "HTML5", "CSS3"],
+        "This is a Ecommerce Website built using ReactJS, Redux, React-Redux, Bootstrap and Firebase. The website features product viewing and adding to cart",
+      projectLink: "https://redstoreecommerce.web.app/",
+      projectTechnologies: [
+        "ReactJS",
+        "Redux",
+        "React-Redux",
+        "Bootstrap",
+        "Firebase",
+      ],
     },
     {
       projectTitle: "Basic Banking App",
@@ -67,6 +74,15 @@ export default function MyWorks() {
         "Heroku",
       ],
     },
+    {
+      projectTitle: "Web Dev Website",
+      projectImage: webdevapp,
+      projectDescription:
+        "Developed a Web Design and Development Company Website built using ReactJS, Javascript, HTML and CSS. The website features amazing UI and is responsive on different devices.",
+      projectLink: "https://web-development-website.vercel.app/",
+      projectTechnologies: ["ReactJS", "Javascript", "HTML5", "CSS3"],
+    },
+
     {
       projectTitle: "Quiz App",
       projectImage: quizapp,
