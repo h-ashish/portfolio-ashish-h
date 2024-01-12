@@ -101,7 +101,7 @@ export default function CardDetails() {
                   </li>
                   <li>
                     Generated test cases for the micro frontends using React
-                    Jest, which improved code test coverage to 65%
+                    Jest, which improved code test coverage to 65%.
                   </li>
                   <li>
                     Synchronized with product owners to enhance UI/UX by
