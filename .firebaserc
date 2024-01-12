@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "ashish-projects"
-  }
+  },
+  "targets": {
+    "ashish-projects": {
+      "hosting": {
+        "portfolio": [
+          "portfolio-ashish-h"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
