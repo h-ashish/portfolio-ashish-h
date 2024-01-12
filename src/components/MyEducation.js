@@ -15,24 +15,17 @@ export default function MyEducation() {
         My Education
       </Typography>
       <Grid container spacing={2}>
-        <Grid item lg={6} md={6} sm={12} xs={12}>
+        <Grid item lg={12} md={12} sm={12} xs={12}>
           <Card sx={{ minHeight: 100 }}>
             <CardHeader
               title="Dayananda Sagar Institutions"
               subheader="BE in Mechanical Engineering"
+              action={
+                <CardContent style={{ color: "#a9c3de" }}>
+                  August 2015 - August 2019
+                </CardContent>
+              }
             />
-            <CardContent style={{ color: "#a9c3de" }}>
-              August 2015 - August 2019
-            </CardContent>
-          </Card>
-        </Grid>
-
-        <Grid item lg={6} md={6} sm={12} xs={12}>
-          <Card sx={{ minHeight: 100 }}>
-            <CardHeader title="Narayana PU College" subheader="PCMC" />
-            <CardContent style={{ color: "#a9c3de" }}>
-              June 2013 - June 2015
-            </CardContent>
           </Card>
         </Grid>
       </Grid>

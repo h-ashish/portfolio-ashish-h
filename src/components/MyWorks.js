@@ -109,7 +109,7 @@ export default function MyWorks() {
         {projectDetails.map((dets, index) => {
           return (
             <Grid item lg={4} md={4} sm={12} xs={12} key={index}>
-              <Card style={{ minHeight: "500px" }}>
+              <Card style={{ minHeight: "530px" }}>
                 <CardHeader
                   action={
                     <Tooltip title="View Webapp">
@@ -118,6 +118,7 @@ export default function MyWorks() {
                           className={classes.anchorStyles}
                           href={dets.projectLink}
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <OpenInNewIcon fontSize="small" />
                         </a>
@@ -141,7 +142,13 @@ export default function MyWorks() {
                     {dets.projectDescription}
                   </Typography>
                   {dets.projectTechnologies.map((techs, index) => {
-                    return <Chip label={techs} key={index} />;
+                    return (
+                      <Chip
+                        style={{ margin: "4px" }}
+                        label={techs}
+                        key={index}
+                      />
+                    );
                   })}
                 </CardContent>
               </Card>

@@ -1,7 +1,7 @@
 import { AppBar, Toolbar, IconButton, Tooltip } from "@mui/material";
 import React, { Fragment } from "react";
 import { makeStyles } from "@mui/styles";
-import AshishResume from "../assets/AshishResume.pdf";
+import AshishResume from "../assets/AshishHResume.pdf";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 
 const useStyles = makeStyles((theme) => ({

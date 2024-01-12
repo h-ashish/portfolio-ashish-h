@@ -55,12 +55,16 @@ export default function Introduction() {
         </Grid>
         <Grid item lg={12} md={12} xs={12}>
           <Typography variant="h3" className={classes.descTypo}>
-            I am a Front-end Developer who specializes in creating amazing
-            digital experiences. I aspire to be a Full-stack Developer. I am
-            currently focused on building accessible dashboards for AI-products
-            and softwares at{" "}
-            <a href="https://resoluteai.in/" className={classes.anchorStyles}>
-              ResoluteAI.in
+            Detail-oriented Software Engineer with 2.5 years in front-end
+            development, excelling in crafting responsive user interfaces and
+            collaborating with cross-functional teams to deliver high-quality
+            software solutions. Currently focused on translating business
+            requirements into code modules and software solutions at{" "}
+            <a
+              href="https://www.accolite.com/"
+              className={classes.anchorStyles}
+            >
+              Accolite.
             </a>
           </Typography>
         </Grid>

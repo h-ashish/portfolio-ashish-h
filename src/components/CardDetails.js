@@ -48,24 +48,24 @@ export default function CardDetails() {
   return (
     <Fragment>
       <Typography variant="h1" marginBottom={2}>
-        Work Experience
+        Professional Experience
       </Typography>
       <Grid container spacing={2}>
         <Grid item lg={6} md={6} sm={12} xs={12}>
           <Card sx={{ minHeight: 150 }}>
             <CardContent>
               <Typography variant="h2">
-                Software Developer <br />
+                Senior Software Engineer <br />
                 <a
-                  href="https://resoluteai.in/"
+                  href="https://www.accolite.com/"
                   className={classes.anchorStyles}
                 >
-                  @ResoluteAI.in
+                  @Accolite
                 </a>
               </Typography>
               <Box className={classes.boxStyle}>
                 <Typography variant="h3" marginTop={2}>
-                  July 2021 - Present
+                  May 2022 - Present
                 </Typography>
                 <ExpandMore
                   expand={expanded}
@@ -83,18 +83,82 @@ export default function CardDetails() {
               <CardContent style={{ color: "#a9c3de" }}>
                 <ul>
                   <li>
-                    Architected, Designed, Developed and Deployed highly
-                    interactive dashboards for clients with Firebase and ReactJs
-                    single handedly.
+                    Revamped a legacy micro frontend app using ReactJS, Ag Grid;
+                    boosted readability by 60%, integrated APIs, automated
+                    deployment via CI/CD pipelines; analyzed code quality and
+                    security with Sonarqube.
                   </li>
                   <li>
-                    Developed and deployed a ticketing management system for a
-                    client which let users of our AI products raise tickets for
-                    support with ReactJS, Material UI and Firebase.
+                    Led migration of user preferences feature to a stable,
+                    standardized microservice, achieving an 80% decrease in
+                    maintainability.
                   </li>
                   <li>
-                    Engineered and maintained major features of our AI product -
-                    Facegenie, using ReactJs, Material UI and Firebase.
+                    Collaborated on enhancing telecommunications order tracking
+                    page: integrated APIs for a 70% performance boost,
+                    implemented designs using NextJS, styled-components, and a
+                    custom UI framework.
+                  </li>
+                  <li>
+                    Generated test cases for the micro frontends using React
+                    Jest, which improved code test coverage to 65%
+                  </li>
+                  <li>
+                    Synchronized with product owners to enhance UI/UX by
+                    creating new microservices APIs for container widgets,
+                    resulting in a 45% improvement in data interpretation.
+                  </li>
+                </ul>
+              </CardContent>
+            </Collapse>
+          </Card>
+        </Grid>
+
+        <Grid item lg={6} md={6} sm={12} xs={12}>
+          <Card sx={{ minHeight: 150 }}>
+            <CardContent>
+              <Typography variant="h2">
+                Software Developer <br />
+                <a
+                  href="https://resoluteai.in/"
+                  className={classes.anchorStyles}
+                >
+                  @ResoluteAI.in
+                </a>
+              </Typography>
+              <Box className={classes.boxStyle}>
+                <Typography variant="h3" marginTop={2}>
+                  July 2021 - April 2022
+                </Typography>
+                <ExpandMore
+                  expand={expanded}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label="show more"
+                  style={{ marginTop: "15px" }}
+                >
+                  <ExpandMoreIcon />
+                </ExpandMore>
+              </Box>
+            </CardContent>
+
+            <Collapse in={expanded} timeout="auto" unmountOnExit>
+              <CardContent style={{ color: "#a9c3de" }}>
+                <ul>
+                  <li>
+                    Oversaw and guided a team of 3 in creating Staffing
+                    Management Software, boosting efficiency by 50% and halving
+                    deployment duration.
+                  </li>
+                  <li>
+                    Partnered with Machine Learning Engineers to craft an
+                    analytics dashboard for a textile client, elevating data
+                    readability and interpretation by 35%.
+                  </li>
+                  <li>
+                    Supervised and upheld key features of the AI product
+                    "Facegenie" while concurrently managing multiple projects
+                    for three distinct clients.
                   </li>
                 </ul>
               </CardContent>
@@ -135,62 +199,13 @@ export default function CardDetails() {
               <CardContent style={{ color: "#a9c3de" }}>
                 <ul>
                   <li>
-                    Designed, Developed and Deployed a fullstack (MERN Stack)
-                    Basic Banking System Website with basic functionality, and
-                    responsive UI.
+                    Orchestrated the development of a full stack (MERN Stack)
+                    Banking System Website with account management, money
+                    transfer features, and a responsive, user-friendly UI.
                   </li>
                   <li>
-                    Used Technologies like HTML, CSS, JavaScript. ReactJS,
-                    Express, NodeJS and MongoDB. The Website was successfully
-                    hosted online on Heroku.
-                  </li>
-                </ul>
-              </CardContent>
-            </Collapse>
-          </Card>
-        </Grid>
-
-        <Grid item lg={6} md={6} sm={12} xs={12}>
-          <Card sx={{ minHeight: 150 }}>
-            <CardContent>
-              <Typography variant="h2">
-                Web Development Trainee
-                <br />
-                <a
-                  href="https://www.thesparksfoundationsingapore.org/"
-                  className={classes.anchorStyles}
-                >
-                  @Zenrays Technologies
-                </a>
-              </Typography>
-              <Box className={classes.boxStyle}>
-                <Typography variant="h3" marginTop={2}>
-                  Jan 2021 - May 2021
-                </Typography>
-                <ExpandMore
-                  expand={expanded}
-                  onClick={handleExpandClick}
-                  aria-expanded={expanded}
-                  aria-label="show more"
-                  style={{ marginTop: "15px" }}
-                >
-                  <ExpandMoreIcon />
-                </ExpandMore>
-              </Box>
-            </CardContent>
-
-            <Collapse in={expanded} timeout="auto" unmountOnExit>
-              <CardContent style={{ color: "#a9c3de" }}>
-                <ul>
-                  <li>Full Stack (MERN) Web Development training program.</li>
-                  <li>
-                    Designed and Developed a game website by converting mockups
-                    into usable web presence using HTML, CSS and JavaScript
-                    coding.
-                  </li>
-                  <li>
-                    Designed and developed a front-end credit card website using
-                    ReactJS.
+                    Executed the development of the banking system website and
+                    achieved a seamless deployment on the Heroku platform.
                   </li>
                 </ul>
               </CardContent>
@@ -231,9 +246,10 @@ export default function CardDetails() {
               <CardContent style={{ color: "#a9c3de" }}>
                 <ul>
                   <li>
-                    Read and interpreted blueprints, technical drawings,
-                    schematics, computer generated reports and also responsible
-                    for project documentation.
+                    Analyzed blueprints, technical drawings, and schematics,
+                    offering design solutions and documentation for an aircraft
+                    manufacturing client, resulting in a notable 12% reduction
+                    in manufacturing mean time.
                   </li>
                 </ul>
               </CardContent>
